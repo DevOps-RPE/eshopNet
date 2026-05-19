@@ -18,7 +18,7 @@ jobs:
           dotnet-version: 9.0.x # O la versión que prefieras probar
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore eShop.slnx
 
       - name: Build
         run: dotnet build --no-restore --configuration Release
